@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Tilt Game</string>
+    <string name="tagline">A tilt-based arcade challenge</string>
+
+    <!-- Start Screen -->
+    <string name="play_game">Play Game</string>
+    <string name="settings">Settings</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="about">About</string>
+    <string name="developer_credit">Developed by Assishmon C S (24BCE5139)</string>
+
+    <!-- Game Over -->
+    <string name="game_over">Game Over</string>
+    <string name="score">Score: %1$d</string>
+    <string name="high_score">High Score: %1$d</string>
+    <string name="play_again">Play Again</string>
+    <string name="main_menu">Main Menu</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About</string>
+    <string name="app_version">TiltGame v2.0</string>
+    <string name="about_description">Developed by Assishmon C S (24BCE5139)\n\nTiltGame is a tilt-controlled arcade game that uses real-time sensor input to deliver a simple yet engaging gameplay experience. Players collect orbs, earn bonus points, and avoid boundaries using smooth device tilting. The game emphasizes minimal design, responsive feedback, and efficient performance.</string>
+
+    <!-- Help Screen -->
+    <string name="help_title">How to Play</string>
+    <string name="help_description">• Tilt your phone to move the ball\n• Collect green orbs to score points\n• Bonus red orbs appear every 5 points\n• Avoid touching the screen edges</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="enable_vibration">Enable Vibration</string>
+    <string name="music_volume">Music Volume</string>
+
+</resources>

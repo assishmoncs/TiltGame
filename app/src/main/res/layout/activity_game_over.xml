@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#0E1116"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:text="@string/game_over"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#FF5252"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Final Score -->
+    <TextView
+        android:id="@+id/finalScoreText"
+        android:text="@string/score"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- High Score -->
+    <TextView
+        android:id="@+id/highScoreText"
+        android:text="@string/high_score"
+        android:textSize="18sp"
+        android:textColor="#00E5FF"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/restartBtn"
+        android:text="@string/play_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mainMenuBtn"
+        android:text="@string/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>
